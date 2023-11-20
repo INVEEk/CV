@@ -14,7 +14,7 @@
 
 .photo-name {
     position: absolute;
-    top: 98px;
+    top: 85px;
     width: 200px;
     height: 180px;
     background-color: black;
@@ -31,5 +31,5 @@
     background-color: yellowgreen;
     font-size: 26px;
     border-radius: 15px;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", sans-serif;
 }
