@@ -14,9 +14,9 @@
 
 .photo-name {
     position: absolute;
-    top: 85px;
+    top: 73px;
     width: 150px;
-    height: 135px;
+    height: 150px;
     background-color: black;
 }
 
@@ -30,6 +30,7 @@
     height: 30%;
     background-color: yellowgreen;
     font-size: 20px;
+    font-weight: bold;
     border-radius: 5px;
     font-family: "Times New Roman", sans-serif;
 }
@@ -42,11 +43,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .horizontal-line {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.border-right {
+    border-right: 1px yellowgreen solid;
+    padding: 10px;
 }
