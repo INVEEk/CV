@@ -14,7 +14,7 @@
 
 .photo-name {
     position: absolute;
-    top: 73px;
+    top: 90px;
     width: 150px;
     height: 150px;
     background-color: black;
@@ -50,9 +50,11 @@
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    border: 1px solid;
 }
 
 .border-right {
-    border-right: 1px yellowgreen solid;
-    padding: 10px;
+    border-right: 2px yellowgreen solid;
+    padding-right: 10px;
+    padding-left: 10px;
 }
