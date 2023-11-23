@@ -44,3 +44,9 @@
     align-items: center;
     font-size: 13px;
 }
+
+.horizontal-line {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
