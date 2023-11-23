@@ -17,8 +17,16 @@
     top: 90px;
     width: 180px;
     height: 200px;
-    background-color: black;
-    border-radius: 5px;
+    background-color: dimgrey;
+    border-radius: 35px;
+}
+
+.photo {
+    border-radius: 50%;
+    border: dotted 7px yellowgreen;
+    height: 80%;
+    width: 92%;
+    object-fit: fill;
 }
 
 .name {
