@@ -166,3 +166,20 @@
     background-color: yellowgreen;
     color: yellowgreen;
 }
+
+.skill-1 {
+    width: 400x;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+
+.skill-2 {
+    background-color: red;
+    width: 80px;
+    color: red;
+}
+.skill-2-opposite {
+    width: 320px;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
