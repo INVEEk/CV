@@ -96,6 +96,73 @@
     border-radius: 2px;
     font-size: large;
 }
+
 .list {
     font-size: 14px;
+}
+
+.progress-bar {
+    float: right;
+    border: 1px black solid;
+    border-radius: 3px;
+    width: 400px;
+    font-size: 13px;
+
+}
+.bar-1 {
+    background-color: red;
+    color: red;
+    width: 120px;
+}
+
+.bar-1-opposite {
+    width: 280px;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+
+.bar-2 {
+    background-color: red;
+    width: 40px;
+    color: red;
+}
+
+.bar-2-opposite {
+    width: 360px;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+
+.bar-3 {
+    background-color: red;
+    width: 80px;
+    color: red;
+}
+
+.bar-3-opposite {
+    width: 320px;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+.bar-4 {
+    background-color: red;
+    width: 100px;
+    color: red;
+}
+
+.bar-4-opposite {
+    width: 300px;
+    background-color: yellowgreen;
+    color: yellowgreen;
+}
+.bar-5 {
+    background-color: red;
+    width: 80px;
+    color: red;
+}
+
+.bar-5-opposite {
+    width: 320px;
+    background-color: yellowgreen;
+    color: yellowgreen;
 }
