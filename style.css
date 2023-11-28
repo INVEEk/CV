@@ -74,16 +74,18 @@
     width: 43%;
     padding-right: 2%;
     border-right: 2px black solid;
+    padding-left: 2px;
 }
 
 .text-left {
     padding-left: 18px;
-
 }
+
 .right-side {
     margin-top: 1%;
     margin-right: 5%;
     width: 50%;
+    display: inline;
 }
 
 .article {
