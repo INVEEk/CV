@@ -14,8 +14,8 @@
 
 .photo-name {
     position: absolute;
-    top: 90px;
-    width: 180px;
+    top: 95px;
+    width: 240px;
     height: 200px;
     background-color: dimgrey;
     border-radius: 35px;
@@ -24,21 +24,21 @@
 .photo {
     border-radius: 50%;
     border: dotted 7px yellowgreen;
-    height: 80%;
+    height: 70%;
     width: 92%;
     object-fit: fill;
 }
 
 .name {
-    width: 180px;
+    width: 240px;
     position: absolute;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 35%;
     background-color: yellowgreen;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
     font-family: "Times New Roman", sans-serif;
@@ -64,10 +64,7 @@
 
 .horizontal-line-bottom {
     width: auto;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 2%;
-    margin-bottom: 4%;
+    margin: 2% 6% 4% 6%;
     border: 1px solid;
 }
 
@@ -104,7 +101,6 @@
 .icons {
     background-color: yellowgreen;
     border-radius: 2px;
-    font-size: large;
 }
 
 .list {
@@ -178,7 +174,7 @@
 }
 
 .skill-1 {
-    width: 400x;
+    width: 400px;
     background-color: yellowgreen;
     color: yellowgreen;
 }
