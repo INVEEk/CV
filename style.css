@@ -87,10 +87,12 @@
     text-align: justify;
 
 }
+
 .right-side {
     width: 41%;
     padding-left: 3%;
-    margin-top: 1%;}
+    margin-top: 1%;
+}
 
 .article {
     font-size: 19px;
@@ -149,6 +151,7 @@
     background-color: yellowgreen;
     color: yellowgreen;
 }
+
 .bar-4 {
     background-color: red;
     width: 100px;
@@ -160,6 +163,7 @@
     background-color: yellowgreen;
     color: yellowgreen;
 }
+
 .bar-5 {
     background-color: red;
     width: 80px;
