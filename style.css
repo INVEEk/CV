@@ -77,21 +77,20 @@
 .left-side {
     margin-left: 5%;
     margin-top: 1%;
-    width: 43%;
-    padding-right: 2%;
+    width: 41%;
+    padding-right: 3%;
     border-right: 2px black solid;
 }
 
 .text-left {
     padding-left: 18px;
+    text-align: justify;
 
 }
 .right-side {
-    margin-top: 1%;
-    margin-right: 5%;
-    width: 43%;
-    padding-left: 2%;
-}
+    width: 41%;
+    padding-left: 3%;
+    margin-top: 1%;}
 
 .article {
     font-size: 19px;
