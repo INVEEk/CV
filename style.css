@@ -56,6 +56,10 @@
 }
 
 .horizontal-line {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> right-side
     width: auto;
     margin-left: 6%;
     margin-right: 6%;
@@ -65,6 +69,13 @@
 .horizontal-line-bottom {
     width: auto;
     margin: 2% 6% 4% 6%;
+<<<<<<< HEAD
+=======
+=======
+    margin-left: 6%;
+    margin-right: 6%;
+>>>>>>> left-side
+>>>>>>> right-side
     border: 1px solid;
 }
 
@@ -77,15 +88,33 @@
 .left-side {
     margin-left: 5%;
     margin-top: 1%;
+<<<<<<< HEAD
     width: 41%;
     padding-right: 3%;
+=======
+<<<<<<< HEAD
+    width: 41%;
+    padding-right: 3%;
+=======
+    width: 42%;
+    padding-right: 2%;
+>>>>>>> left-side
+>>>>>>> right-side
     border-right: 2px black solid;
 }
 
 .text-left {
     padding-left: 18px;
+<<<<<<< HEAD
     text-align: justify;
 
+=======
+<<<<<<< HEAD
+    text-align: justify;
+
+=======
+>>>>>>> left-side
+>>>>>>> right-side
 }
 
 .right-side {
@@ -194,6 +223,7 @@
     color: yellowgreen;
 }
 
+<<<<<<< HEAD
 .cv-container {
     display: flex;
     margin-top: 20px;
@@ -205,4 +235,22 @@
     justify-content: center;
     padding-left: 40px;
     padding-bottom: 20px;
+=======
+<<<<<<< HEAD
+.cv-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.full-stack-developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 20px;
+=======
+.contener {
+    display: flex;
+>>>>>>> left-side
+>>>>>>> right-side
 }
