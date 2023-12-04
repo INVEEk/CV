@@ -67,6 +67,11 @@
     border: 1px solid;
 }
 
+.vertical-line {
+    height: 800px;
+    border: solid 1px black;
+}
+
 .border-address-right {
     border-right: 2px yellowgreen solid;
     padding: 0 10px;
@@ -84,6 +89,10 @@
 .text-left {
     padding-left: 18px;
     text-align: justify;
+}
+
+.text-margin {
+    margin: 0px 0px 15px;
 }
 
 .right-side {
