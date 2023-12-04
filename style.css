@@ -68,7 +68,7 @@
 }
 
 .vertical-line {
-    height: 800px;
+    height: 700px;
     border: solid 1px black;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .text-margin {
-    margin: 0px 0px 15px;
+    margin: 0 0 15px;
 }
 
 .right-side {
