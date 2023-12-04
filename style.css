@@ -91,6 +91,11 @@
     text-align: justify;
 }
 
+.text-right {
+    padding-left: 30px;
+    text-align: justify;
+}
+
 .text-margin {
     margin: 0px 0px 15px;
 }
