@@ -19,7 +19,6 @@
     width: 240px;
     height: 200px;
     background-color: black;
-
 }
 
 .photo {
@@ -58,14 +57,13 @@
 
 .horizontal-line {
     width: auto;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin: 0 6%;
     border: 1px solid;
 }
 
 .horizontal-line-bottom {
     width: auto;
-    margin: 2% 6% 4% 6%;
+    margin: 2% 6% 4%;
     border: 1px solid;
 }
 
@@ -78,7 +76,6 @@
 .left-side {
     margin-top: 1%;
     margin-right: 3%;
-    border-right: 2px black solid;
 }
 
 .text-left {
@@ -87,7 +84,7 @@
 }
 
 .right-side {
-    padding-left: 3%;
+    margin-left: 3%;
     margin-top: 1%;
 }
 
@@ -97,7 +94,7 @@
 
 .article {
     font-size: 19px;
-    padding-bottom: 2px;
+    margin: 20px 0;
 }
 
 .icons {
@@ -115,8 +112,8 @@
     border-radius: 3px;
     width: 400px;
     font-size: 13px;
-
 }
+
 .bar-1 {
     background-color: red;
     color: red;
