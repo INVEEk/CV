@@ -18,7 +18,7 @@
     top: 95px;
     width: 240px;
     height: 200px;
-    background-color: black;
+    background-color: dimgrey;
 }
 
 .photo {
@@ -84,6 +84,8 @@
 .left-side {
     margin-top: 1%;
     margin-right: 3%;
+    width: 41%;
+    padding-right: 3%;
 }
 
 .text-left {
@@ -98,6 +100,7 @@
 
 .text-margin {
     margin: 0 0 15px;
+    text-align: justify;
 }
 
 .right-side {
@@ -128,6 +131,14 @@
     border: 1px black solid;
     border-radius: 3px;
     height: 15px;
+    width: 400px;
+    font-size: 13px;
+
+}
+.bar-1 {
+    background-color: red;
+    color: red;
+    width: 120px;
 }
 
 .bar-1-opposite {
@@ -207,3 +218,6 @@
     padding-left: 40px;
     padding-bottom: 20px;
 }
+
+
+
