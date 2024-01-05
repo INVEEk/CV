@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header {
@@ -14,31 +15,30 @@
 
 .photo-name {
     position: absolute;
-    top: 90px;
-    width: 180px;
+    top: 95px;
+    width: 240px;
     height: 200px;
-    background-color: dimgrey;
-    border-radius: 35px;
+    background-color: black;
 }
 
 .photo {
     border-radius: 50%;
     border: dotted 7px yellowgreen;
-    height: 80%;
+    height: 70%;
     width: 92%;
     object-fit: fill;
 }
 
 .name {
-    width: 180px;
+    width: 240px;
     position: absolute;
     bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 30%;
+    height: 35%;
     background-color: yellowgreen;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     border-radius: 5px;
     font-family: "Times New Roman", sans-serif;
@@ -46,9 +46,9 @@
 
 .address {
     width: 100%;
-    height: 40px;
+    height: 50px;
     text-align: center;
-    padding: 20px;
+    margin: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,45 +56,67 @@
 }
 
 .horizontal-line {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: auto;
+    margin: 0 6%;
     border: 1px solid;
 }
 
-.border-right {
+.horizontal-line-bottom {
+    width: auto;
+    margin: 2% 6% 4%;
+    border: 1px solid;
+}
+
+.vertical-line {
+    height: 700px;
+    border: solid 1px black;
+}
+
+.border-address-right {
     border-right: 2px yellowgreen solid;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 0 10px;
+}
+
+.border-address-left {
+    padding: 0 10px;
 }
 
 .left-side {
-    margin-left: 5%;
     margin-top: 1%;
-    width: 43%;
-    padding-right: 2%;
-    border-right: 2px black solid;
+    margin-right: 3%;
 }
 
 .text-left {
     padding-left: 18px;
-
+    text-align: justify;
 }
+
+.text-right {
+    padding-left: 30px;
+    text-align: justify;
+}
+
+.text-margin {
+    margin: 0 0 15px;
+}
+
 .right-side {
+    margin-left: 3%;
     margin-top: 1%;
-    margin-right: 5%;
-    width: 50%;
+}
+
+.column-width {
+    width: 50%
 }
 
 .article {
     font-size: 19px;
-    padding-bottom: 2px;
+    margin: 20px 0;
 }
 
 .icons {
     background-color: yellowgreen;
     border-radius: 2px;
-    font-size: large;
 }
 
 .list {
@@ -105,81 +127,83 @@
     float: right;
     border: 1px black solid;
     border-radius: 3px;
-    width: 400px;
-    font-size: 13px;
-
-}
-.bar-1 {
-    background-color: red;
-    color: red;
-    width: 120px;
+    height: 15px;
 }
 
 .bar-1-opposite {
-    width: 280px;
-    background-color: yellowgreen;
-    color: yellowgreen;
+    background-color: red;
+    width: 60px;
 }
 
-.bar-2 {
-    background-color: red;
-    width: 40px;
-    color: red;
+.bar-1 {
+    width: 140px;
+    background-color: yellowgreen;
 }
 
 .bar-2-opposite {
-    width: 360px;
-    background-color: yellowgreen;
-    color: yellowgreen;
+    background-color: red;
+    width: 20px;
 }
 
-.bar-3 {
-    background-color: red;
-    width: 80px;
-    color: red;
+.bar-2 {
+    width: 180px;
+    background-color: yellowgreen;
 }
 
 .bar-3-opposite {
-    width: 320px;
-    background-color: yellowgreen;
-    color: yellowgreen;
-}
-.bar-4 {
     background-color: red;
-    width: 100px;
-    color: red;
+    width: 40px;
+}
+
+.bar-3 {
+    width: 160px;
+    background-color: yellowgreen;
 }
 
 .bar-4-opposite {
-    width: 300px;
-    background-color: yellowgreen;
-    color: yellowgreen;
-}
-.bar-5 {
     background-color: red;
-    width: 80px;
-    color: red;
+    width: 50px;
+}
+
+.bar-4 {
+    width: 150px;
+    background-color: yellowgreen;
 }
 
 .bar-5-opposite {
-    width: 320px;
+    background-color: red;
+    width: 40px;
+}
+
+.bar-5 {
+    width: 160px;
     background-color: yellowgreen;
-    color: yellowgreen;
 }
 
 .skill-1 {
-    width: 400x;
+    width: 200px;
     background-color: yellowgreen;
-    color: yellowgreen;
 }
 
-.skill-2 {
+.skill-2-opposite  {
     background-color: red;
-    width: 80px;
-    color: red;
+    width: 40px;
 }
-.skill-2-opposite {
-    width: 320px;
+
+.skill-2{
+    width: 160px;
     background-color: yellowgreen;
-    color: yellowgreen;
+}
+
+.cv-container {
+    display: flex;
+    margin: 20px 50px 0;
+}
+
+.full-stack-developer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 20px;
 }
