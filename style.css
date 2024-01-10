@@ -1,209 +1,385 @@
-* {
-    margin: 0;
-    box-sizing: border-box;
+/* Devices 768px and bigger */
+@media only screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        background-color: dimgrey;
+        width: 100%;
+        height: 30vh;
+    }
+
+    .photo-name {
+        position: absolute;
+        top: 95px;
+        width: 240px;
+        height: 200px;
+        background-color: dimgrey;
+    }
+
+    .photo {
+        border-radius: 50%;
+        border: dotted 7px yellowgreen;
+        height: 70%;
+        width: 92%;
+        object-fit: fill;
+    }
+
+    .name {
+        width: 240px;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35%;
+        background-color: yellowgreen;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-family: "Times New Roman", sans-serif;
+    }
+
+    .address {
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        margin: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+
+    .horizontal-line {
+        width: auto;
+        margin: 0 6%;
+        border: 1px solid;
+    }
+
+    .horizontal-line-bottom {
+        width: auto;
+        margin: 2% 6% 4%;
+        border: 1px solid;
+    }
+
+    .vertical-line {
+        height: 700px;
+        border: solid 1px black;
+    }
+
+    .border-address-right {
+        border-right: 2px yellowgreen solid;
+        padding: 0 10px;
+    }
+
+    .border-address-left {
+        padding: 0 10px;
+    }
+
+    .left-side {
+        margin-top: 1%;
+        margin-right: 3%;
+        width: 41%;
+        padding-right: 3%;
+    }
+
+    .text-left {
+        padding-left: 18px;
+        text-align: justify;
+    }
+
+    .text-right {
+        padding-left: 30px;
+        text-align: justify;
+    }
+
+    .text-margin {
+        margin: 0 0 15px;
+        text-align: justify;
+    }
+
+    .right-side {
+        margin-left: 3%;
+        margin-top: 1%;
+    }
+
+    .column-width {
+        width: 50%
+    }
+
+    .article {
+        font-size: 19px;
+        margin: 20px 0;
+    }
+
+    .icons {
+        background-color: yellowgreen;
+        border-radius: 2px;
+    }
+
+    .list {
+        font-size: 14px;
+    }
+
+    .progress-bar {
+        float: right;
+        border: 1px black solid;
+        border-radius: 3px;
+        height: 15px;
+        width: 400px;
+        font-size: 13px;
+    }
+
+    .bar-1 {
+        background-color: red;
+        color: red;
+        width: 120px;
+    }
+
+    .bar-1-opposite {
+        background-color: red;
+        width: 60px;
+    }
+
+    .bar-1 {
+        width: 140px;
+        background-color: yellowgreen;
+    }
+
+    .bar-2-opposite {
+        background-color: red;
+        width: 20px;
+    }
+
+    .bar-2 {
+        width: 180px;
+        background-color: yellowgreen;
+    }
+
+    .bar-3-opposite {
+        background-color: red;
+        width: 40px;
+    }
+
+    .bar-3 {
+        width: 160px;
+        background-color: yellowgreen;
+    }
+
+    .bar-4-opposite {
+        background-color: red;
+        width: 50px;
+    }
+
+    .bar-4 {
+        width: 150px;
+        background-color: yellowgreen;
+    }
+
+    .bar-5-opposite {
+        background-color: red;
+        width: 40px;
+    }
+
+    .bar-5 {
+        width: 160px;
+        background-color: yellowgreen;
+    }
+
+    .skill-1 {
+        width: 200px;
+        background-color: yellowgreen;
+    }
+
+    .skill-2-opposite {
+        background-color: red;
+        width: 40px;
+    }
+
+    .skill-2 {
+        width: 160px;
+        background-color: yellowgreen;
+    }
+
+    .cv-container {
+        display: flex;
+        margin: 20px 50px 0;
+    }
+
+    .full-stack-developer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    position: relative;
-    background-color: dimgrey;
-    width: 100%;
-    height: 30vh;
-}
+/* Devices 768px and smaller */
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-.photo-name {
-    position: absolute;
-    top: 95px;
-    width: 240px;
-    height: 200px;
-    background-color: black;
-}
+    .header {
+        background-color: dimgrey;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.photo {
-    border-radius: 50%;
-    border: dotted 7px yellowgreen;
-    height: 70%;
-    width: 92%;
-    object-fit: fill;
-}
+    .photo-name {
+        width: 150px;
+        height: 125px;
+        display: flex;
+        padding: 3%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.name {
-    width: 240px;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35%;
-    background-color: yellowgreen;
-    font-size: 25px;
-    font-weight: bold;
-    border-radius: 5px;
-    font-family: "Times New Roman", sans-serif;
-}
+    .photo {
+        border-radius: 50%;
+        width: 80%;
+        height: 85%;
+        object-fit: fill;
+    }
 
-.address {
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-}
+    .name {
+        font-size: 19px;
+        font-weight: bold;
+        font-family: "Times New Roman", sans-serif;
+    }
 
-.horizontal-line {
-    width: auto;
-    margin: 0 6%;
-    border: 1px solid;
-}
+    .address {
+        margin: 2% 0;
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .horizontal-line {
+        width: 94%;
+        border: 1px solid darkgrey;
+        margin: 0 3%;;
+    }
+    .cv-container {
+        display: flex;
+        margin: 0 2% 0;
+        flex-direction: column;
+    }
+    .article {
+        margin: 2% 0;
+        font-size: x-large;
+    }
+    .text-left {
+        text-align: justify;
+        font-size: 15px;
+    }
+    .progress-bar {
+        float: right;
+        border: 1px black solid;
+        border-radius: 2px;
+        font-size: 13px;
+        height: 10px;
+    }
+    .bar-1 {
+        background-color: green;
+        width: 150px;
+    }
 
-.horizontal-line-bottom {
-    width: auto;
-    margin: 2% 6% 4%;
-    border: 1px solid;
-}
+    .bar-1-opposite {
+        background-color: red;
+        width: 60px;
+    }
 
-.vertical-line {
-    height: 700px;
-    border: solid 1px black;
-}
+    .bar-2 {
+        background-color: green;
+        width: 120px;
+    }
 
-.border-address-right {
-    border-right: 2px yellowgreen solid;
-    padding: 0 10px;
-}
+    .bar-2-opposite {
+        background-color: red;
+        width: 90px;
+    }
 
-.border-address-left {
-    padding: 0 10px;
-}
+    .bar-3 {
+        background-color: green;
+        width: 140px;
+    }
 
-.left-side {
-    margin-top: 1%;
-    margin-right: 3%;
-}
+    .bar-3-opposite {
+        background-color: red;
+        width: 70px;
+    }
 
-.text-left {
-    padding-left: 18px;
-    text-align: justify;
-}
+    .bar-4 {
+        background-color: green;
+        width: 200px;
+    }
 
-.text-right {
-    padding-left: 30px;
-    text-align: justify;
-}
+    .bar-4-opposite {
+        background-color: red;
+        width: 10px;
+    }
 
-.text-margin {
-    margin: 0 0 15px;
-}
+    .bar-5 {
+        background-color: green;
+        width: 110px;
+    }
 
-.right-side {
-    margin-left: 3%;
-    margin-top: 1%;
-}
+    .bar-5-opposite {
+        background-color: red;
+        width: 100px;
+    }
 
-.column-width {
-    width: 50%
-}
+    .skill-1 {
+        width: 210px;
+        background-color: yellowgreen;
+    }
 
-.article {
-    font-size: 19px;
-    margin: 20px 0;
-}
+    .skill-2-opposite {
+        background-color: red;
+        width: 60px;
+    }
 
-.icons {
-    background-color: yellowgreen;
-    border-radius: 2px;
-}
-
-.list {
-    font-size: 14px;
-}
-
-.progress-bar {
-    float: right;
-    border: 1px black solid;
-    border-radius: 3px;
-    height: 15px;
-}
-
-.bar-1-opposite {
-    background-color: red;
-    width: 60px;
-}
-
-.bar-1 {
-    width: 140px;
-    background-color: yellowgreen;
-}
-
-.bar-2-opposite {
-    background-color: red;
-    width: 20px;
-}
-
-.bar-2 {
-    width: 180px;
-    background-color: yellowgreen;
-}
-
-.bar-3-opposite {
-    background-color: red;
-    width: 40px;
-}
-
-.bar-3 {
-    width: 160px;
-    background-color: yellowgreen;
-}
-
-.bar-4-opposite {
-    background-color: red;
-    width: 50px;
-}
-
-.bar-4 {
-    width: 150px;
-    background-color: yellowgreen;
-}
-
-.bar-5-opposite {
-    background-color: red;
-    width: 40px;
-}
-
-.bar-5 {
-    width: 160px;
-    background-color: yellowgreen;
-}
-
-.skill-1 {
-    width: 200px;
-    background-color: yellowgreen;
-}
-
-.skill-2-opposite  {
-    background-color: red;
-    width: 40px;
-}
-
-.skill-2{
-    width: 160px;
-    background-color: yellowgreen;
-}
-
-.cv-container {
-    display: flex;
-    margin: 20px 50px 0;
-}
-
-.full-stack-developer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 40px;
-    padding-bottom: 20px;
+    .skill-2 {
+        width: 150px;
+        background-color: yellowgreen;
+    }
+    .full-stack-developer {
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    .text-margin {
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    li {
+        text-align: justify;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .horizontal-line-bottom {
+        width: 94%;
+        border: 1px solid darkgrey;
+        margin: 5% 3%;
+    }
 }
