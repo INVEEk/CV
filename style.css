@@ -271,8 +271,96 @@
     }
 
     .horizontal-line {
-        width: 90%;
+        width: 94%;
         border: 1px solid darkgrey;
-        margin: 5% 5%;
+        margin: 0 3%;;
+    }
+
+    .cv-container {
+        display: flex;
+        margin: 0 2% 0;
+        flex-direction: column;
+    }
+
+    .article {
+        margin: 2% 0;
+    }
+
+    .text-left {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .progress-bar {
+        float: right;
+        border: 1px black solid;
+        border-radius: 2px;
+        font-size: 13px;
+        height: 10px;
+    }
+
+    .bar-1 {
+        background-color: green;
+        width: 150px;
+    }
+
+    .bar-1-opposite {
+        background-color: red;
+        width: 60px;
+    }
+
+    .bar-2 {
+        background-color: green;
+        width: 120px;
+    }
+
+    .bar-2-opposite {
+        background-color: red;
+        width: 90px;
+    }
+
+    .bar-3 {
+        background-color: green;
+        width: 140px;
+    }
+
+    .bar-3-opposite {
+        background-color: red;
+        width: 70px;
+    }
+
+    .bar-4 {
+        background-color: green;
+        width: 200px;
+    }
+
+    .bar-4-opposite {
+        background-color: red;
+        width: 10px;
+    }
+
+    .bar-5 {
+        background-color: green;
+        width: 110px;
+    }
+
+    .bar-5-opposite {
+        background-color: red;
+        width: 100px;
+    }
+
+    .skill-1 {
+        width: 210px;
+        background-color: yellowgreen;
+    }
+
+    .skill-2-opposite {
+        background-color: red;
+        width: 60px;
+    }
+
+    .skill-2 {
+        width: 150px;
+        background-color: yellowgreen;
     }
 }
