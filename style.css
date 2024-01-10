@@ -269,28 +269,24 @@
         align-items: center;
         flex-direction: column;
     }
-
     .horizontal-line {
         width: 94%;
         border: 1px solid darkgrey;
         margin: 0 3%;;
     }
-
     .cv-container {
         display: flex;
         margin: 0 2% 0;
         flex-direction: column;
     }
-
     .article {
         margin: 2% 0;
+        font-size: x-large;
     }
-
     .text-left {
         text-align: justify;
         font-size: 15px;
     }
-
     .progress-bar {
         float: right;
         border: 1px black solid;
@@ -298,7 +294,6 @@
         font-size: 13px;
         height: 10px;
     }
-
     .bar-1 {
         background-color: green;
         width: 150px;
@@ -362,5 +357,29 @@
     .skill-2 {
         width: 150px;
         background-color: yellowgreen;
+    }
+    .full-stack-developer {
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    .text-margin {
+        text-align: justify;
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    li {
+        text-align: justify;
+    }
+    ul {
+        padding-left: 15px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .horizontal-line-bottom {
+        width: 94%;
+        border: 1px solid darkgrey;
+        margin: 5% 3%;
     }
 }
